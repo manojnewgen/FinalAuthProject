@@ -1,0 +1,19 @@
+### Login
+POST http://localhost:5010/api/account/login
+Content-Type: application/json
+
+{
+    "username": "your-username",
+    "password": "your-password"
+}
+
+# ...add more requests below as you add more endpoints to AccountController...
+### Register
+POST http://localhost:5010/api/account/register
+Content-Type: application/json
+
+{
+    "username": "newuser",
+    "email": "mannu9058@gmail.com"
+}
+
